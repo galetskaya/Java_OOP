@@ -8,7 +8,7 @@ public class WriterJSON extends WriteIntoFile{
     @Override
     public void FileWriter(Map<String, Double> args) {
 
-        try(FileWriter writer = new FileWriter("file3.json", false)) {
+        try(FileWriter writer = new FileWriter("HW8/file3.json", false)) {
             writer.append("{\n");
             int count = 1;
             for(Map.Entry<String, Double> entry: args.entrySet()) {

@@ -9,7 +9,7 @@ public class WriterTXT extends WriteIntoFile{
     @Override
     public void FileWriter(Map<String, Double> args) {
 
-        try(FileWriter writer = new FileWriter("file.txt", false)) {
+        try(FileWriter writer = new FileWriter("HW8/file.txt", false)) {
             for(Map.Entry<String, Double> entry: args.entrySet()) {
                 writer.append(entry + "\n");
             }

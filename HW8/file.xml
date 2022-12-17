@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <Student>
+    <name>Степан Кузьмин</name>
+    <mark>3.6</mark>
+  </Student>
+  <Student>
+    <name>Мария Кузнецова</name>
+    <mark>5.0</mark>
+  </Student>
+  <Student>
+    <name>Иван Иванов</name>
+    <mark>4.8</mark>
+  </Student>
+</root>

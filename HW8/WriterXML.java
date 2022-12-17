@@ -8,7 +8,7 @@ public class WriterXML extends WriteIntoFile{
     @Override
     public void FileWriter(Map<String, Double> args) {
 
-        try(FileWriter writer = new FileWriter("file.xml", false)) {
+        try(FileWriter writer = new FileWriter("HW8/file.xml", false)) {
             writer.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<root>\n");
             for(Map.Entry<String, Double> entry: args.entrySet()) {
                 writer.append("  <Student>\n");
