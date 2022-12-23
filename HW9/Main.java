@@ -45,23 +45,10 @@ public class Main {
 
         System.out.println("---------------------------");
 
-        Iterator<Student> revIt = sg.reversIterator();
-        while(revIt.hasNext()){
-            for (int i = sg.getLength() - 1; i >= 0; i--){
-                System.out.println("Index is: " + i + "\n" + revIt.next() + "\n");
-            }
-            
+        //Print reverse method
+        ReverseIterator rt = new ReverseIterator(sg);
+        while(rt.hasNext()) {
+            System.out.println("Index is: " + rt.getIndex() + "\n" + rt.next());
         }
-        // while(revIt.hasNext()){
-        //     System.out.println(revIt.getIndex());  // cannot getIndex
-        //     System.out.println(revIt.next());            
-        // }
-        
-
-
-        
-        
-
-
     }
 }
